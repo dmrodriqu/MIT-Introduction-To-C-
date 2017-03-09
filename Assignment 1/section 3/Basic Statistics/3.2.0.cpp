@@ -44,5 +44,6 @@ int main(){
 	cout<< "Max: " << high << "\n";
 	cout<< "Min: " << low << "\n";
 	cout<< "Range: " << high - low << "\n";
+	return 0;
 	
 }
