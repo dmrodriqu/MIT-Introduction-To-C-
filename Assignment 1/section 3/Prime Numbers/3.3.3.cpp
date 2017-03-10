@@ -17,12 +17,14 @@ int main(){
 				prime =	0;	// if so break
 				break;
 			}
-			n--;	   
+
 		}
 		if(prime)
+		{
 			cout<< i << "\n";
-
-
+			n--;
+		}
+		
 	}
 	return 0;
 } 
