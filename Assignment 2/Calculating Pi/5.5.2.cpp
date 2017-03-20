@@ -41,11 +41,11 @@ float calculatePi(int n){
 		double y = genRandY();
 		if(insideCirlce(x, y))
 			counter++;
-		i++;
+		
 
 	}
 	  float prePi =  counter/n;
-	  float pi = 8*prePi;
+	  float pi = 4*prePi;
 	  return pi;
 } 
 
